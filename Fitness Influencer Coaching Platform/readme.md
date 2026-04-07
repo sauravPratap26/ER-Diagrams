@@ -80,6 +80,13 @@ The platform supports:
 ### user_fitness_plans
 - `id` string pk
 - `user_id` string
+- `weight_in_kg` number
+- `height_in_cm` number
+- `body_fat_in_gm` number
+- `other_measurements` string
+- `bmi` number
+- `status` enum [active, completed, cancelled]
+- `end_date` timestamp
 - `trainer_fitness_plans_id` string
 - `joined_at` timestamp
 - `is_deleted` boolean
